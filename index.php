@@ -69,6 +69,7 @@
 		<li><a href="http://onlyhandle.com/jordan">[jordan]</a></li>
 		<br>
 		<li><a href="http://represent.io">Represent</a></li>
+		<li><a href="http://www.botlytics.co">Botlytics</a></li>
 		<li><a href="http://shipp.herokuapp.com">Shipp</a></li>
 		<li><a href="http://overboard.me">Overboard</a></li>
 		<li><a href="http://startconvoy.com">Convoy</a></li>

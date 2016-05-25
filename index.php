@@ -18,7 +18,6 @@
 
 	</script>
 	<style type="text/css">
-		@import url(https://fonts.googleapis.com/css?family=Roboto:300,500);
 		* {
 			margin: 0;
 			padding: 0;
@@ -34,7 +33,7 @@
 			-webkit-box-sizing: border-box;
 		}
 		body {
-			font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 			padding: 64px;
 		}
 		ul {
@@ -44,7 +43,7 @@
 		ul li {
 			font-size: 23px;
 			line-height: 64px;
-			font-weight: 300;
+			font-weight: 400;
 		}
 		ul li.title {
 			font-weight: 500;
@@ -69,21 +68,21 @@
 		<li><a href="http://onlyhandle.com/jordan">[jordan]</a></li>
 		<br>
 		<li><a href="http://represent.io">Represent</a></li>
+		<li><a href="https://balloon.io">Balloon</a></li>
 		<li><a href="http://www.botlytics.co">Botlytics</a></li>
-		<li><a href="http://shipp.herokuapp.com">Shipp</a></li>
 		<li><a href="http://overboard.me">Overboard</a></li>
 		<li><a href="http://startconvoy.com">Convoy</a></li>
-		<li><a href="https://balloon.io">Balloon</a></li>
 		<li><a href="http://buck.io">Buck</a></li>
+		<li><a href="https://trymask.com">Mask</a></li>
 		<li><a href="http://onlyhandle.com">Handle</a></li>
 		<li><a href="http://tryoutreach.com">Outreach</a></li>
-		<li><a href="https://www.trymask.com">Mask</a></li>
-		<li><a href="http://haggle.io">Haggle</a></li>
+		<li><a href="http://www.recollected.co">Recollect</a></li>
 		<li><a href="http://realmoji.com">Realmoji</a></li>
+		<li><a href="https://haggleio.herokuapp.com">Haggle</a></li>
 		<li><a href="https://github.com/jordansinger/hook.js">Hook.js</a></li>
 		<li><a href="http://yohook.herokuapp.com">YoHook</a></li>
 		<li><a href="http://whistlapp.com">Whistl</a></li>
-		<li><a href="http://getbonfireapp.com">Bonfire</a></li>
+		<li><a href="http://shipp.herokuapp.com">Shipp</a></li>
 	</ul>
 </body>
 </html>

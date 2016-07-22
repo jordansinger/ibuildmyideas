@@ -69,9 +69,9 @@
 		<br>
 		<li><a href="http://represent.io">Represent</a></li>
 		<li><a href="https://balloon.io">Balloon</a></li>
-		<li><a href="http://www.botlytics.co">Botlytics</a></li>
-		<li><a href="http://buck.io">Buck</a></li>
-		<li><a href="http://www.taste-kit.com">TasteKit</a></li>
+		<li><a href="https://botlytics.co">Botlytics</a></li>
+		<li><a href="https://buck.io">Buck</a></li>
+		<li><a href="https://taste-kit.com">TasteKit</a></li>
 		<li><a href="http://startconvoy.com">Convoy</a></li>
 		<li><a href="http://overboard.me">Overboard</a></li>
 		<li><a href="https://trymask.com">Mask</a></li>

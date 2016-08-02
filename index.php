@@ -72,13 +72,13 @@
 		<li><a href="https://botlytics.co">Botlytics</a></li>
 		<li><a href="https://buck.io">Buck</a></li>
 		<li><a href="https://taste-kit.com">TasteKit</a></li>
+		<li><a href="https://wonder-bot.com">Wonder</a></li>
 		<li><a href="http://startconvoy.com">Convoy</a></li>
 		<li><a href="http://overboard.me">Overboard</a></li>
 		<li><a href="https://trymask.com">Mask</a></li>
 		<li><a href="http://onlyhandle.com">Handle</a></li>
 		<li><a href="https://github.com/jordansinger/hook">Hook</a></li>
 		<li><a href="http://tryoutreach.com">Outreach</a></li>
-		<li><a href="http://www.recollected.co">Recollect</a></li>
 		<li><a href="http://realmoji.com">Realmoji</a></li>
 		<li><a href="https://haggleio.herokuapp.com">Haggle</a></li>
 		<li><a href="http://yohook.herokuapp.com">YoHook</a></li>

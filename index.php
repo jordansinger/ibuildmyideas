@@ -148,7 +148,7 @@
 						  show_main(projects.length - 1 == i);
 						}, (350 * i) / 2);
 					});
-				}, 1350);
+				}, 1000);
 			}
 		}
 
@@ -157,7 +157,7 @@
 				setTimeout(function(){
 					$("#intro").addClass("fadeOut").hide();
 					$("#main").show().addClass("fadeIn");
-				}, 1350);
+				}, 1000);
 			}
 		}
 
@@ -165,22 +165,8 @@
 			$.each(words, function(i, word) {
 				setTimeout(function(){
 				  word_element.text(word);
-				  switch(i) {
-				  	case 0:
-				  		word_element.addClass("fadeInDown");
-				  		break;
-				  	case 1:
-				  		word_element.removeClass("fadeInDown").addClass("fadeInRight");
-				  		break;
-				  	case 2:
-				  		word_element.removeClass("fadeInRight").addClass("fadeInUp");
-				  		break;
-				  	case 3:
-				  		word_element.removeClass("fadeInUp").addClass("fadeInLeft");
-				  		break;
-				  }
 				  show_projects(words.length - 1 == i);
-				}, 1000 * i);
+				}, 350 * i);
 			});
 		});
 	</script>

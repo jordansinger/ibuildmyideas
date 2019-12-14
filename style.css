@@ -53,6 +53,9 @@ body {
 #home .section .icon.gone {
 	background-image: url(images/gone.png), linear-gradient(180deg, #25F2AD 0%, #1FCC92 100%);
 }
+#home .section .icon.cash-app {
+	background-image: url(images/cashapp.png);
+}
 #home .section .icon.browser {
 	background-image: url(images/browser.png);
 	background-color: #fff;
@@ -87,6 +90,9 @@ body {
 	height: 812px;
 	margin: 64px auto 0;
 	background-size: cover;
+}
+#home .section .phone.cash-app {
+	background-image: url(images/screens/cashapp.png);
 }
 #home .section .phone.gone {
 	background-image: url(images/screens/gone.png);

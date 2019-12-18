@@ -10,6 +10,9 @@ body {
   background: #fafafa;
   -webkit-font-smoothing: antialiased;
 }
+a:hover {
+	text-decoration: underline;
+}
 #home {
 	padding: 64px 0;
 	width: 375px;

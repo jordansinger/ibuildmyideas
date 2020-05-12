@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+  background: #fafafa;
+  -webkit-font-smoothing: antialiased;
+}
+a:hover {
+	text-decoration: underline;
+}
+#home {
+	padding: 64px 0;
+	width: 375px;
+	margin: 0 auto;
+	text-align: center;
+}
+#home .section {
+	padding: 64px 0;
+}
+#home .section.footer {
+	padding: 32px 0;
+}
+#home .section.footer.links {
+	padding-bottom: 64px;
+}
+#home #download {
+	margin: 24px auto 0;
+	display: inline-block;
+}
+#home .section .link {
+	display: block;
+	margin: 16px 0 0;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.8);
+}
+#home .section .icon {
+	margin: 0 auto 24px;
+	width: 64px;
+	height: 64px;
+	box-shadow: inset 0px -0.25px 0.5px rgba(0, 0, 0, 0.08), inset 0px 0.25px 0.5px rgba(255, 255, 255, 0.16), 0px 1.5px 2px rgba(0, 0, 0, 0.08), 0px 4px 6px rgba(0, 0, 0, 0.12);
+	border-radius: 20px;
+	background-size: cover;
+}
+#home .section .icon.me {
+	background-image: url(images/jordan-singer.jpg);
+	border-radius: 64px;
+}
+#home .section .icon.gone {
+	background-image: url(images/gone.png), linear-gradient(180deg, #25F2AD 0%, #1FCC92 100%);
+}
+#home .section .icon.cash-app {
+	background-image: url(images/cashapp.png);
+}
+#home .section .icon.browser {
+	background-image: url(images/browser.png);
+	background-color: #fff;
+}
+#home .section h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: center;
+
+	color: rgba(0, 0, 0, 0.88);
+}
+#home .section h3 {
+	margin-top: 16px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 28px;
+	/* identical to box height, or 156% */
+
+	text-align: center;
+	letter-spacing: 0.25px;
+
+	color: rgba(0, 0, 0, 0.8);
+}
+#home .section .phone {
+	background: #FFFFFF;
+	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.12);
+	border-radius: 40px;
+	width: 375px;
+	height: 812px;
+	margin: 64px auto 0;
+	background-size: cover;
+}
+#home .section .phone.cash-app {
+	background-image: url(images/screens/cashapp.png);
+}
+#home .section .phone.gone {
+	background-image: url(images/screens/gone.png);
+}
+#home .section .phone.represent {
+	background-image: url(images/screens/represent.png);
+}
+#home .section .phone.wonder {
+	background-image: url(images/screens/wonder.png);
+}
+#home .section .phone.playbook {
+	background-image: url(images/screens/playbook.png);
+}
+#home .section .phone.balloon {
+	background-image: url(images/screens/balloon.png);
+}
+#home .section .phone.browser {
+	background-image: url(images/screens/browser.png);
+}
+@media screen and (max-width: 480px) {
+	#home {
+		padding: 0;
+		width: 100%;
+	}
+	#home .section {
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+	#home .section .phone {
+		width: 248px;
+		height: 537px;
+		border-radius: 32px;
+	}
+}

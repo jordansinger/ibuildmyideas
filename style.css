@@ -29,7 +29,7 @@ a:hover {
 .section {
 	padding-bottom: 48px;
 	margin-bottom: 48px;
-	border-bottom: 1px solid #333;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 .section:last-of-type {
 	border-bottom: 0;
@@ -57,6 +57,7 @@ h2 {
 }
 .link {
 	font-size: 16px;
+	line-height: 20px;
 	color: #fff;
 	margin-right: 12px;
 }
@@ -82,7 +83,7 @@ h3 {
 }
 p {
 	font-size: 18px;
-	line-height: 22px;
+	line-height: 24px;
 	color: rgba(255, 255, 255, 0.8);
 }
 ul li {

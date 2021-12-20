@@ -1,94 +1,114 @@
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
-}
-
 * {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	text-decoration: none;
-	box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+     box-sizing: border-box;
 }
-body {
-  background: #000;
-  -webkit-font-smoothing: antialiased;
+ body {
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     background: #edeef0;
+     color: #333;
+     -webkit-font-smoothing: antialiased;
+     padding-top: 64px;
 }
-a {
-	color: inherit;
+ a {
+     color: inherit;
 }
-a:hover {
-	text-decoration: underline;
+ #header {
+     height: 64px;
+     width: 100%;
+     text-align: center;
+     position: fixed;
+     top: 0;
+     left: 0;
+     background: rgba(255, 255, 255, 0.8);
+     backdrop-filter: blur(50px);
+     -webkit-backdrop-filter: blur(50px);
+     box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+     cursor: default;
 }
-#content {
-	max-width: 512px;
-	margin: 0 auto;
-	padding: 64px 24px;
+ #header h1 {
+     font-size: 18px;
+     line-height: 64px;
+     font-weight: 500;
+     color: #333;
 }
-.section {
-	padding-bottom: 48px;
-	margin-bottom: 48px;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+ #content {
+     max-width: 420px;
+     margin: 0 auto;
+     padding: 48px 0;
 }
-.section:last-of-type {
-	border-bottom: 0;
-	padding-bottom: 0;
-	margin-bottom: 0;
+ .section {
+     background: #fff;
+     border-radius: 12px;
+     margin-bottom: 48px;
+     overflow: hidden;
 }
-.me {
-	width: 80px;
-	height: 80px;
-	border-radius: 40px;
-	margin-bottom: 12px;
+ .image img {
+     display: block;
+     width: 100%;
 }
-h1 {
-	font-weight: 600;
-	font-size: 24px;
-	color: #FFFFFF;
-	margin-bottom: 12px;
+ .section .meta {
+     padding: 24px;
 }
-h2 {
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 24px;
-	color: rgba(255, 255, 255, 0.8);
-	margin-bottom: 16px;
+ .me {
+     width: 80px;
+     height: 80px;
+     border-radius: 40px;
+     margin-bottom: 12px;
 }
-.link {
-	font-size: 16px;
-	line-height: 20px;
-	color: #fff;
-	margin-right: 12px;
+ h2 {
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 24px;
+     color: rgba(255, 255, 255, 0.8);
+     margin-bottom: 16px;
 }
-.links .link {
-	margin-right: 0;
-	display: block;
-	margin-bottom: 16px;
+ .links {
+     background: none;
 }
-h6 {
-	font-weight: 600;
-	font-size: 14px;
-	color: rgba(255, 255, 255, 0.64);
-	margin-bottom: 24px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+ .link {
+     display: block;
+     font-size: 16px;
+     line-height: 24px;
+     color: #666;
+     margin-bottom: 8px;
+     padding-left: 24px;
 }
-h3 {
-	font-weight: 600;
-	font-size: 20px;
-	line-height: 24px;
-	color: #FFFFFF;
-	margin-bottom: 6px;
+ .link:hover {
+     text-decoration: underline;
 }
-p {
-	font-size: 18px;
-	line-height: 24px;
-	color: rgba(255, 255, 255, 0.8);
+ .link:last-of-type {
+     margin-bottom: 0;
 }
-ul li {
-	margin-bottom: 32px;
+ h3 {
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 20px;
+     margin-bottom: 2px;
 }
-ul li:last-of-type {
-	margin-bottom: 0;
+ p {
+     font-size: 16px;
+     line-height: 20px;
+     color: #999;
+}
+ ul li {
+     margin-bottom: 32px;
+}
+ ul li:last-of-type {
+     margin-bottom: 0;
+}
+ @media screen and (max-width: 420px) {
+     #content {
+         width: 100%;
+         padding: 0;
+    }
+     .idea {
+         border-radius: 0;
+         margin: 0;
+    }
+     .links {
+         margin-top: 48px;
+    }
 }

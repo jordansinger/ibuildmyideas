@@ -60,25 +60,6 @@
     </style>
   </head>
   <body>
-    <iframe src="https://article.app/jordan/jordan-singer?embed=true" id="mainFrame" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
-    <script>
-      // Wait for iframe to load
-      document.getElementById('mainFrame').onload = function() {
-        try {
-          // Access the iframe's document
-          const iframeDoc = this.contentDocument || this.contentWindow.document;
-          
-          // Add click event listener to all links
-          iframeDoc.addEventListener('click', function(e) {
-            if (e.target.tagName === 'A' && e.target.href) {
-              e.preventDefault();
-              window.open(e.target.href, '_blank');
-            }
-          });
-        } catch (error) {
-          console.log('Cannot access iframe content due to cross-origin restrictions');
-        }
-      };
-    </script>
+    <iframe src="https://article.app/jordan/jordan-singer?embed=true"></iframe>
   </body>
 </html>
